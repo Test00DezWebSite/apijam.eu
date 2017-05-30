@@ -9,6 +9,14 @@
 
     <title>museums of interest</title>
 
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="icon" href="">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -60,74 +68,67 @@
 
 <div class="band" style="text-align:center;">
     <div class="item-1">
-          <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/i-sleep-orchard" class="card">
-            <div class="thumb" style="background-image: url(assets/img/GAM/INFINITO_-_KABAKOV_I_sleep_in_the_orchard_20130403045921.jpg);"></div>
+      <iframe src="map.html" width="700" height="500"></iframe>
+          <!--<a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/i-sleep-orchard" class="card">
+            <div class="thumb" style="background-image: url(assets/img/GAM/INFINITO_-_KABAKOV_I_sleep_in_the_orchard_20130403045921.jpg);"></div>-->
             <article>
-              <h1>I sleep in the orchard</h1>
-              <span>GAM TORINO</span>
+              <h1>Give a try to<a href="http://apijam-mobile.azurewebsites.net/map.html" target="_blank"><strong> ApiJam Map</strong></a></h1>
+              <span>More</span>
             </article>
           </a>
+
+        <!--move down button-->
+          <a name="myAnchor" id="myAnchor"></a>
+
+          <a onclick="scroll_to('#row');return false;">
+          <!--<a id="" href="javascript:window.scrollTo(0,585)">-->
+          	<!--<img id="imgarr" src="./assets/img/arrow.png">-->
+
+            <a href="#myAnchor" id="anchor1" class="anchorLink"><button class="btn-floating btn-action"><i class="fa fa-chevron-down" aria-hidden="true"></i></button></a>
+
+          </a>
+
+        <!-- end move down button-->
+        <!--<a class="btn-floating btn-action"><i class="fa fa-chevron-left" aria-hidden="true" style="position: absolute; right: 0;"></i></a>-->
+        <!--<a href="#" class="btn-floating btn-action"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>-->
+
     </div>
 
-    <!--Card content-->
-    <div class="card-block">
-        <!--move down button-->
-        <a href="app.html" class="btn-floating btn-action"><i class="fa fa-chevron-right" aria-hidden="true" style="position: center;"></i></a>
-        <!--<a href="my_museums.html" class="btn-floating btn-action"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>-->
-    </div>
-    <!--/.Card content-->
+    <hr>
 
     <div class="item-2">
-          <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/superficie-bianca" class="card">
-            <div class="thumb" style="background-image: url(assets/img/GAM/CASTELLANI_MS_30.jpg);"></div>
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(assets/img/the-team.jpg);"></div>
             <article>
-              <h1>Superficie bianca</h1>
-              <span>GAM TORINO</span>
+              <h1 href="#">About</h1>
+              <span href="#">We are building a web app that leverages open traffic data, open source map and machine learning so you won't miss your next appointment ;)</span>
             </article>
           </a>
     </div>
     <div class="item-3">
-          <a href="http://www.gamtorino.it/it/le-collezioni/catalogo-delle-opere-online-gam/superficie-102" class="card">
-            <div class="thumb" style="background-image: url(assets/img/GAM/CAPOGROSSI_SUPERFICIE_102.jpg);"></div>
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(assets/img/features.jpg);"></div>
             <article>
-              <h1>SUPERFICIE 102</h1>
-              <span>GAM TORINO</span>
+              <h1>Features</h1>
+              <!--<span href="#">Here</span>-->
             </article>
           </a>
     </div>
     <div class="item-4">
-          <a href="http://www.gamtorino.it/sites/default/files/opere/ACCARDI_ARCIERE_SU_BIANCO_CRT.jpg" class="card">
-            <div class="thumb" style="background-image: url(assets/img/GAM/ACCARDI_ARCIERE_SU_BIANCO_CRT.jpg);"></div>
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(assets/img/features.png);"></div>
             <article>
-              <h1>ACCARDI ARCIERE SU BIANCO CRT</h1>
-              <span>GAM TORINO</span>
+              <h1 href="http://apijam-mobile.azurewebsites.net/">App</h1>
+              <!--<span href="http://apijam-mobile.azurewebsites.net/">Here</span>-->
             </article>
           </a>
     </div>
     <div class="item-5">
-          <a href="http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Antonello%20da%20Messina.jpg" class="card">
-            <div class="thumb" style="background-image: url(assets/img/madama/M0003140.jpg);"></div>
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(assets/img/chat.png);"></div>
             <article>
-              <h1>Antonello da Messina, Ritratto d'uomo</h1>
-              <span>Palazzo Madama</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-6">
-          <a href="http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Palazzo%20Madama%20Torino_Camera%20di%20Madama%20Reale.jpg" class="card">
-            <div class="thumb" style="background-image: url(http://www.fondazionetorinomusei.it/sites/default/files/page/gallery/Palazzo%20Madama%20Torino_Camera%20di%20Madama%20Reale.jpg);"></div>
-            <article>
-              <h1>Camera di Madama Reale</h1>
-              <span>Palazzo Madama</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-7">
-          <a href="http://www.maotorino.it/it/le-collezioni/catalogo-delle-opere-online-mao" class="card">
-            <div class="thumb" style="background-image: url(assets/img/MAO/Sl03.jpg);"></div>
-            <article>
-              <h1>Giardino secco</h1>
-              <span> MAO Torino</span>
+              <h1  href="https://m.me/apijam.eu">Have a chat(bot)!</h1>
+              <!--<span href="https://m.me/apijam.eu">Here</span>-->
             </article>
           </a>
     </div>
@@ -144,6 +145,15 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!--<script src="assets/js/bootstrap-2.3.1.min.js"></script>-->
 	  <script src="assets/js/addtohomescreen.js"></script>
+
+    <script>
+    $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+  });
+  </script>
 
     </body>
 </html>
